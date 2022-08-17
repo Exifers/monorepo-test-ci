@@ -1,0 +1,6 @@
+{
+	"scripts": {
+		"start": "pnpm --filter './packages/*' --parallel -- run start:dev",
+		"build": "pnpm --filter './packages/*' --parallel -- run build"
+	}
+}

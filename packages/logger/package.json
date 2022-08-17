@@ -1,0 +1,19 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "",
+	"exports": {
+		"production": "./dist/index.js",
+		"default": "./index.ts"
+	},
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.6",
+    "typescript": "^4.7.4"
+  }
+}
